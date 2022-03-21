@@ -1,5 +1,7 @@
 # Quiz App using React Hook and the context API
 
+![Main screen](./quizapp/src/assets/mainscreen.PNG)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

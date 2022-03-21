@@ -23,7 +23,9 @@
   color: black;
 }
 
-.Menu {
+.Menu,
+.Quiz,
+.EndScreen {
   width: 500px;
   height: 500px;
   background-color: lightgray;
@@ -32,15 +34,33 @@
   justify-content: center;
   border-radius: 18px;
   align-items: center;
+  color: white;
 }
 
-.Menu button {
+.Menu button,
+.Quiz button,
+.EndScreen button {
   padding: 0.7rem 1.5rem;
   width: 300px;
   font-size: 1.2rem;
-  border-radius: 25px;
+  border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.8);
   background: rgba(255, 255, 255, 0.1);
   color: black;
   cursor: pointer;
+  margin-top: 20px;
+}
+button:active {
+  color: lightgreen;
+}
+button:hover {
+  background-color: rgb(110, 187, 121);
+}
+
+.Option {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
