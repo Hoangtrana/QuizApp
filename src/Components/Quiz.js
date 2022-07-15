@@ -41,7 +41,12 @@ function Quiz() {
       {currQuestion === Question.length - 1 ? (
         <button onClick={finishQuiz}>Finish Quiz</button>
       ) : (
-        <button onClick={nextQuestion}>Next Question</button>
+        <button
+          onClick={nextQuestion}
+          style={{ background: "rgb(110, 187, 121)" }}
+        >
+          Next Question
+        </button>
       )}
     </div>
   );

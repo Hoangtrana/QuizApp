@@ -6,7 +6,12 @@ function MainMenu() {
   const { gameState, setGameState } = useContext(QuizContext);
   return (
     <div className="Menu">
-      <button onClick={() => setGameState("quiz")}>Start Quiz</button>
+      <button
+        onClick={() => setGameState("quiz")}
+        style={{ background: "rgb(110, 187, 121)" }}
+      >
+        Start Quiz
+      </button>
     </div>
   );
 }
