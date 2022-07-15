@@ -1,6 +1,6 @@
 # Quiz App using React Hook and the context API
 
-![Main screen](./quizapp/src/assets/mainscreen.PNG)
+![Main screen](./src/assets/mainscreen.PNG)
 
 # Getting Started with Create React App
 
